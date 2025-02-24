@@ -1,4 +1,7 @@
-const express = require( "express" ), mysql = require( "mysql" ), cors = require( "cors" ), app = express( );
+import express from "express";
+import mysql from "mysql";
+import cors from "cors";
+const app = express( );
 
 app.use( express.json( ) );
 // app.use( cors( { origin: 'http://localhost' , credentials :	true} ) );
